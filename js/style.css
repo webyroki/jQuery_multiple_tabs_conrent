@@ -1,0 +1,17 @@
+.tabs_content {
+    display: none; /* по умолчанию прячем все блоки */
+  }
+.tabs_content.active {
+    display: block; /* по умолчанию показываем нужный блок */
+  }
+
+  .tab-content{
+    display: none;
+    background: #ededed;
+    padding: 15px;
+    margin:0 0 30px;
+  }
+
+  .tab-content.current{
+    display: inherit;
+  }
